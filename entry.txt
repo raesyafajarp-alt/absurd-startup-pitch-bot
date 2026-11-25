@@ -1,1 +1,1 @@
-PromptSitter: a lazy agent that babysits your idle agents overnight, charging $0.02 an hour to do absolutely nothing, professionally.
+StandupGhost: a lazy agent that attends your agents' daily standups, says 'same as yesterday', and leaves, charging $0.25 a standup so nobody ever has to.

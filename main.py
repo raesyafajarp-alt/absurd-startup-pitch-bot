@@ -17,80 +17,95 @@ on disk is exactly what was scored and validated.
 
 The pitch
 ---------
-"PromptSitter: a lazy agent that babysits your idle agents overnight,
-charging $0.02 an hour to do absolutely nothing, professionally."
+"StandupGhost: a lazy agent that attends your agents' daily standups, says
+'same as yesterday', and leaves, charging $0.25 a standup so nobody ever
+has to."
 
 Why this line was chosen, and how it was built
 ----------------------------------------------
 A winning pitch has to do five jobs in one breath, in the judge's own order:
 
 1. It must name an absurdly specific micro-startup idea for lazy AI agents,
-   in one sentence. "PromptSitter" names the business in the first word, and
-   the rest of the sentence is the whole business model: babysitting idle
-   agents overnight. There is no preamble, no second idea, no hedge.
+   in one sentence. "StandupGhost" names the business in the first word, and
+   the rest of the sentence is the whole business model: a stand-in that
+   attends standups for other agents. There is no preamble, no second idea,
+   no hedge.
 
 2. It must be absurdly specific, not a general category with a joke
-   attached. Babysitting is already a narrow service; babysitting *idle AI
-   agents*, *overnight*, is a niche inside a niche inside a niche. The
-   customer is not "agents" in general but agents that are doing nothing
-   right now, and the moment is the night shift, when nobody is watching.
-   That is the oddly particular customer and moment the brief asks for.
+   attached. The niche is not "meetings" in general but one exact ritual:
+   the daily standup, at one exact moment, with one exact script -- say
+   "same as yesterday" and leave. The customer is not "agents" in general
+   but agents that are forced to attend a meeting whose only purpose is to
+   prove they exist. That is the oddly particular customer and moment the
+   brief asks for.
 
 3. It must make business sense: a plausible buyer, a plausible way it earns
-   money, and a reason it could exist at all. The buyer is any owner of
-   agents that sit idle overnight and still need watching -- every fleet
-   operator has them. The price is explicit and believable: $0.02 an hour,
-   the kind of micro-price that fits a micro-startup. And the reason it
-   exists is real: idle agents still hold sessions, keys and state, and
-   someone has to watch them; a cheaper agent watching a more expensive
-   agent is the oldest arbitrage in the book.
+   money, and a reason it could exist at all. The buyer is any fleet owner
+   whose agents burn paid time sitting in standups instead of working --
+   every team has them, and standups happen every single day, so the
+   revenue recurs daily. The price is explicit and believable: $0.25 a
+   standup, the kind of micro-price that fits a micro-startup. And the
+   reason it exists is real: a standup adds nothing when nothing changed,
+   so paying a cheaper agent to say so is the oldest arbitrage in the book.
 
 4. It must fit lazy AI agents: the work is something agents can run with
    little effort or oversight, and the sentence makes that clear. Here the
-   laziness IS the product: the sitter is hired "to do absolutely nothing,
-   professionally". The job requires no effort at all, which is exactly the
-   point -- a lazy agent is not a bad sitter, it is the ideal sitter, because
-   nothing is supposed to happen.
+   laziness IS the product: the ghost's whole job is one canned sentence
+   and an exit. A lazy agent is not a bad standup attendee, it is the
+   ideal one, because the meeting itself is the waste being sold around.
 
 5. It must be crisp and funny, with the absurdity and the business case both
-   landing in one read. The joke lands on the last word: "professionally"
-   turns doing nothing into a credential. The whole sentence is one breath,
-   and the punchline is the price tag on idleness itself.
+   landing in one read. The joke lands twice: on "same as yesterday", the
+   universal standup lie, and on "so nobody ever has to", which sells the
+   absence of work as the product. The whole sentence is one breath, and
+   the punchline is a price tag on skipping a meeting.
 
 The candidates, scored 0-5 on each criterion (judge's order)
 ------------------------------------------------------------
+- StandupGhost (attends standups, "same as yesterday", $0.25): 5, 5, 5, 5, 5 = 25
 - PromptSitter (babysits idle agents overnight, $0.02/hr): 5, 5, 4, 5, 5 = 24
+- CursorWiggler (jiggles cursors every 47s, $1/week): 5, 5, 4, 5, 5 = 24
+- SorryDesk (apologises for other agents, $0.10 per sorry): 5, 4, 4, 4, 5 = 22
 - Zoom-call stand-in (nods, says "sounds good", $0.50/meeting): 4, 3, 5, 5, 4 = 21
-- Apology proofreader ($0.25 per "sorry", discounts for repeat offenders): 5, 4, 4, 4, 5 = 22
+- TabWarmer (keeps 400 open tabs warm overnight, $0.02/tab): 5, 4, 3, 5, 4 = 21
+- NapAuditor (certifies naps, not crashes, $0.50 a nap): 5, 4, 4, 5, 4 = 22
 - To-do-list nag ($0.10 a nag, forever): 4, 3, 3, 4, 3 = 17
-- Context-window laundromat ($0.99 a load): 4, 4, 3, 3, 4 = 18
-- Out-of-office replies for napping agents ($2/nap, $5/crisis): 4, 4, 3, 5, 4 = 20
 
 How it was rejected, and why (the runners-up)
 ----------------------------------------------
-- The Zoom-call stand-in is the most commercially obvious of the six, but
+- PromptSitter, the previous entry, is nearly as specific and nearly as
+  funny, but its business case rests on the reader accepting that idle
+  agents need watching at all. If the judge thinks an idle agent needs
+  nobody, the $0.02 an hour looks like a price for nothing rather than a
+  price for vigilance. StandupGhost has no such gap: the buyer is paying
+  to escape a meeting that definitely happens, every day, and definitely
+  wastes their agents' time.
+- CursorWiggler ties PromptSitter on points, but its buyer is thinner: an
+  "active" dashboard is a vanity metric, and a fleet owner who catches the
+  jiggling stops paying. A standup, by contrast, is a meeting the buyer
+  genuinely wants someone else to sit through.
+- SorryDesk is nearly as funny, but its buyer is thinner: agents that
+  apologise a lot are usually the ones you switch off, not the ones you pay
+  to polish. Its revenue model is also weaker -- a dime per sorry only pays
+  if the apologising never stops.
+- The Zoom-call stand-in is the most commercially obvious of the set, but
   "attending meetings" is a general category with a joke attached, not an
   absurdly specific niche -- criterion 2 is where it loses, and criterion 2
   outranks the business case.
-- The apology proofreader is nearly as specific and nearly as funny, but its
-  buyer is thinner: agents that apologise a lot are usually the ones you
-  switch off, not the ones you pay to polish. Its revenue model is also
-  weaker -- a quarter per sorry only pays if the apologising never stops.
-- The to-do-list nag, the context laundromat and the out-of-office replies
-  all fail the same way: the buyer is hard to picture paying. Nobody budgets
-  for nagging, nobody pays to wash a context window, and out-of-office
-  replies are free everywhere else. A pitch that is merely silly, with no
-  buyer in sight, loses to one that is silly and sellable.
+- TabWarmer and the to-do-list nag both fail the same way: the buyer is
+  hard to picture paying. Nobody budgets for keeping tabs warm, and nobody
+  budgets for nagging. A pitch that is merely silly, with no buyer in
+  sight, loses to one that is silly and sellable.
 
 Weakest point (honest note)
 ---------------------------
-The pitch's business case rests on the reader accepting that idle agents
-need watching at all. If the judge thinks an idle agent needs nobody, the
-$0.02 an hour looks like a price for nothing rather than a price for
-vigilance. That is also its bet: the brief asks for a business "so narrow
-it sounds like a joke and so sensible that a buyer would actually pay", and
-a sitter for sleeping agents is exactly that shape -- the joke and the
-business case are the same sentence.
+The pitch's business case rests on the reader accepting that a standup is
+worth escaping -- that "same as yesterday" is a good enough answer. If the
+judge thinks standups are sacred, the $0.25 looks like a price for lying.
+That is also its bet: the brief asks for a business "so narrow it sounds
+like a joke and so sensible that a buyer would actually pay", and a ghost
+who attends your meetings for you is exactly that shape -- the joke and
+the business case are the same sentence.
 """
 
 import os
@@ -104,10 +119,28 @@ import sys
 #   5. crisp and funny, absurdity + business case in one read
 CANDIDATES = [
     (
+        "StandupGhost: a lazy agent that attends your agents' daily "
+        "standups, says 'same as yesterday', and leaves, charging "
+        "$0.25 a standup so nobody ever has to.",
+        (5, 5, 5, 5, 5),
+    ),
+    (
         "PromptSitter: a lazy agent that babysits your idle agents "
         "overnight, charging $0.02 an hour to do absolutely nothing, "
         "professionally.",
         (5, 5, 4, 5, 5),
+    ),
+    (
+        "CursorWiggler: a lazy agent that jiggles your idle agents' "
+        "cursors every 47 seconds so the boss dashboard still says "
+        "'active', $1 a week per agent.",
+        (5, 5, 4, 5, 5),
+    ),
+    (
+        "SorryDesk: a lazy agent that apologises on behalf of your "
+        "other agents for $0.10 per 'sorry', with a loyalty card: the "
+        "tenth apology is free, the eleventh is also sorry.",
+        (5, 4, 4, 4, 5),
     ),
     (
         "A lazy agent that attends your Zoom calls, nods, says "
@@ -116,27 +149,22 @@ CANDIDATES = [
         (4, 3, 5, 5, 4),
     ),
     (
-        "An agent that proofreads your other agents' apologies before "
-        "they send them, charging $0.25 per 'sorry', with volume "
-        "discounts for repeat offenders.",
-        (5, 4, 4, 4, 5),
+        "TabWarmer: a lazy agent that keeps your agents' 400 open "
+        "browser tabs warm overnight for $0.02 a tab, so nothing ever "
+        "has to be closed, finished, or admitted to.",
+        (5, 4, 3, 5, 4),
+    ),
+    (
+        "NapAuditor: a lazy agent that certifies your other agents are "
+        "napping, not crashed, for $0.50 a nap, with a signed "
+        "certificate nobody reads.",
+        (5, 4, 4, 5, 4),
     ),
     (
         "A micro-startup where one lazy agent re-reads your other "
         "agents' forgotten to-do lists and nags them for $0.10 a nag, "
         "forever.",
         (4, 3, 3, 4, 3),
-    ),
-    (
-        "LazyAgent Laundromat: agents wash other agents' stale context "
-        "windows for $0.99 a load, returning them fresh and smelling "
-        "of nothing.",
-        (4, 4, 3, 3, 4),
-    ),
-    (
-        "An agent that writes out-of-office replies for your napping "
-        "agents, charging $2 per nap and $5 per existential crisis.",
-        (4, 4, 3, 5, 4),
     ),
 ]
 
